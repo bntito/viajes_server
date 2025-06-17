@@ -8,6 +8,8 @@ require('./config/mysql/configDB.js');
 
 app.use(cors({
   origin: 'https://devuelo.netlify.app',
+  // origin: 'http://localhost:5173',
+
   credentials: true
 }));
 
