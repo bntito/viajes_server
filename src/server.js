@@ -6,7 +6,11 @@ const path = require('path');
 
 require('./config/mysql/configDB.js');
 
-app.use(cors());
+app.use(cors({
+  origin: 'https://devuelo.netlify.app',
+  credentials: true
+}));
+
 
 app.use(express.json());
 
