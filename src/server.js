@@ -7,7 +7,7 @@ const path = require('path');
 require('./config/mysql/configDB.js');
 
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://brunolandia.netlify.app'],
+  origin: ['http://localhost:5173', 'https://devuelo.onrender.com'],
   credentials: true
 }));
 
